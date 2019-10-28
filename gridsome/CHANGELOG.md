@@ -3,6 +3,8 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.10](https://github.com/gridsome/gridsome/compare/gridsome@0.7.9...gridsome@0.7.10) (2019-10-28)
+
 ## [0.7.9](https://github.com/gridsome/gridsome/compare/gridsome@0.7.8...gridsome@0.7.9) (2019-10-25)
 
 
