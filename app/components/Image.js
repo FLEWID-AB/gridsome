@@ -91,26 +91,11 @@ export default {
         }))
       }
     } else {
-
-      let src = props.src.src.split("?")[0];
-      src = src.split(".")[0];
-
-      res.push(h('picture', {
-        domProps: {
-          innerHTML: ``
-            `<source srcset="${src}.webp" type="image/webp">` +
-            `<source srcset="${src}.png" type="image/png">` +
-            `<img src="${src}.png">``
-          ```
+      res.push(h('img', {
+        attrs: {
+          src: props.src.src.split("?")[0]
         }
-      }));
-
-
-      // res.push(h('img', {
-      //   attrs: {
-      //     src: props.src.src.split("?")[0]
-      //   }
-      // }))
+      }))
     }
 
     return res
